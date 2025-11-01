@@ -1,0 +1,13 @@
+name: siddhesh
+
+on: 
+  push: 
+    branches: [ main ]
+
+jobs: 
+ domo:
+  runs-on: ubuntu-latest
+
+  steps:
+  -name: Greeting
+  run: echo "Hello devops Engineer"
